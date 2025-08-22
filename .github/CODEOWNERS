@@ -1,0 +1,38 @@
+# CODEOWNERS file for cache-controller-293
+# Global owners - will be requested for all PRs
+* @Armor-test/team-logging @Armor-test/squad-mobile @Armor-test/squad-cache
+
+# Directory ownership
+/components/ @Armor-test/dept-test @Armor-test/dept-notifications
+/api/ @Armor-test/dept-logging @Armor-test/squad-product
+/extensions/ @Armor-test/team-security @Armor-test/squad-product @Armor-test/dept-identity
+/static/ @Armor-test/team-research @Armor-test/dept-test
+/tools/ @Armor-test/unit-test @Armor-test/squad-api @Armor-test/dept-notifications
+/models/ @Armor-test/dept-security @Armor-test/dept-api
+/pkg/ @Armor-test/dept-data @Armor-test/dept-test @Armor-test/dept-reliability
+/vendor/ @Armor-test/grp-reporting @Armor-test/grp-ui @Armor-test/squad-cloud
+/common/ @Armor-test/dept-ui @Armor-test/unit-test @Armor-test/squad-research
+/hooks/ @Armor-test/dept-notifications @Armor-test/grp-api
+/styles/ @Armor-test/dept-data @Armor-test/grp-search @Armor-test/squad-apps
+/examples/ @Armor-test/unit-devops @Armor-test/squad-qa @Armor-test/dept-ui
+/assets/ @Armor-test/squad-research @Armor-test/squad-apps @Armor-test/grp-payments
+/security/ @Armor-test/dept-security @Armor-test/team-research @Armor-test/squad-frontend
+
+# File type ownership
+*.h @Armor-test/grp-storage @Armor-test/squad-apps
+*.css @Armor-test/squad-frontend @Armor-test/unit-test
+*.config @Armor-test/dept-identity @Armor-test/team-research
+*.cpp @Armor-test/grp-api @Armor-test/squad-product
+*.gradle @Armor-test/grp-payments @Armor-test/team-governance
+*.toml @Armor-test/unit-cloud @Armor-test/grp-api @Armor-test/squad-research
+*.jsx @Armor-test/squad-product @Armor-test/grp-ui @Armor-test/dept-reporting
+*.js @Armor-test/unit-governance @Armor-test/team-notifications
+*.md @Armor-test/dept-billing @Armor-test/unit-test @Armor-test/squad-apps
+*.scss @Armor-test/unit-design @Armor-test/dept-ui @Armor-test/dept-reporting
+*.c @Armor-test/team-logging @Armor-test/unit-governance @Armor-test/dept-security
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
